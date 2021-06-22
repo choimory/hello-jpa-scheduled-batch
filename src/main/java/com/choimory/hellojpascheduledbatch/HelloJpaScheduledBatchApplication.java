@@ -1,9 +1,11 @@
 package com.choimory.hellojpascheduledbatch;
 
+import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@EnableBatchProcessing
 public class HelloJpaScheduledBatchApplication {
 
     public static void main(String[] args) {
